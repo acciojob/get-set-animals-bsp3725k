@@ -6,7 +6,7 @@ class Animal {
 	getter(species){
 		return species;
 	}
-	makeSound(){
+	makeSound(species){
 		return `The ${species} makes a sound`;
 	}
 }
